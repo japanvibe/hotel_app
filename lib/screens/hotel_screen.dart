@@ -265,7 +265,7 @@ class HotelScreenState extends State<HotelScreen> {
                                     leading: const Padding(
                                       padding: EdgeInsets.only(top: 4),
                                       child: Image(
-                                          image: AssetImage('emoji-happy.png')),
+                                          image: AssetImage('assets/emoji-happy.png')),
                                     ),
                                     title: const Text('Удобства',
                                         style: TextStyle(
@@ -295,7 +295,7 @@ class HotelScreenState extends State<HotelScreen> {
                                         padding: EdgeInsets.only(top: 4),
                                         child: Image(
                                             image:
-                                                AssetImage('tick-square.png')),
+                                                AssetImage('assets/tick-square.png')),
                                       ),
                                       title: const Text('Что включено',
                                           style: TextStyle(
@@ -325,7 +325,7 @@ class HotelScreenState extends State<HotelScreen> {
                                         padding: EdgeInsets.only(top: 4),
                                         child: Image(
                                             image:
-                                                AssetImage('close-square.png')),
+                                                AssetImage('assets/close-square.png')),
                                       ),
                                       title: const Text('Что не включено',
                                           style: TextStyle(

@@ -38,7 +38,7 @@ class PaidScreen extends StatelessWidget {
                 children: [
                   const Padding(
                     padding: EdgeInsets.only(bottom: 60),
-                    child: Image(image: AssetImage('party-popper.png')),
+                    child: Image(image: AssetImage('assets/party-popper.png')),
                   ),
                   const Padding(
                     padding: EdgeInsets.only(bottom: 15),
